@@ -3,6 +3,11 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import webPlatform from "../assets/img/web-platform.png";
+import dockerImg from "../assets/img/docker-img.png";
+import hoso from "../assets/img/hoso.png";
+import gitImg from "../assets/img/git-img.jpg";
+import subject_at_university from "../assets/img/subject-at-university.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +16,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Web Platform",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: webPlatform,
+      link: "https://github.com/WebPlatform-SunshineTeam/2024_CSE391_NentangWeb"
     },
     {
-      title: "Business Startup",
+      title: "Learning Docker",
+      description: "Build, test, and deploy Docker applications",
+      imgUrl: dockerImg,
+      link: "https://github.com/qnhat2004/Learn-Docker"
+    },
+    {
+      title: "Winform + SQL Database",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: hoso,
+      link: "https://github.com/qnhat2004/Analysis-and-Design-of-Information-Systems"
+    },
+    {
+      title: "Learning Git and Github",
+      description: "Version control system",
+      imgUrl: gitImg,
+      link: "https://github.com/qnhat2004/Learn-Git-and-Github"
+    },
+    {
+      title: "Subject at University",
+      description: "AI, OOP, Data Structure and Algorithm, C#, etc.",
+      imgUrl: subject_at_university,
+      link: "https://github.com/qnhat2004/Subject_at_University"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      link: ""
     },
   ];
 
@@ -70,20 +81,20 @@ export const Projects = () => {
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
+                              // <a href={project.link} key={index} target="_blank" rel="noreferrer">
+                              //   <ProjectCard title={project.title} description={project.description} imgUrl={project.imgUrl} />
+                              // </a>
+                              <ProjectCard key={index} {...project} />
                             )
                           })
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>Project on tab 2</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Project on tab 3</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
@@ -92,7 +103,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="img"></img>
     </section>
   )
 }
