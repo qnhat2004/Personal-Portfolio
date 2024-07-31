@@ -41,15 +41,15 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Img" />
-                                <h5>Brand Identity</h5>
+                                <h5>C/C++</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Img" />
-                                <h5>Logo Design</h5>
+                                <h5>Data Strucure and Algorithm</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Img" />
-                                <h5>Web Development</h5>
+                                <h5>Winform</h5>
                             </div>
                         </Carousel>
                     </div>
