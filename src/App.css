@@ -417,7 +417,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none; /* Loại bỏ gạch chân */
   color: inherit; /* Kế thừa màu chữ từ phần tử cha */
 }
-.proj-link h4, span {
+.proj-link h4, 
+.proj-link span {
   color: #fff; /* Đặt màu chữ là trắng */
 }
 .proj-imgbx {
