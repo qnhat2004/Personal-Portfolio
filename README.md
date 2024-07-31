@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt text](image-1.png)
+![Demo.png](Demo.png)
 
 Built using:
 
