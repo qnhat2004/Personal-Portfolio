@@ -14,22 +14,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Web Platform",
-      description: "Design & Development",
-      imgUrl: webPlatform,
-      link: "https://github.com/WebPlatform-SunshineTeam/2024_CSE391_NentangWeb"
-    },
-    {
       title: "Learning Docker",
       description: "Build, test, and deploy Docker applications",
       imgUrl: dockerImg,
       link: "https://github.com/qnhat2004/Learn-Docker"
-    },
-    {
-      title: "Winform + SQL Database",
-      description: "Design & Development",
-      imgUrl: hoso,
-      link: "https://github.com/qnhat2004/Analysis-and-Design-of-Information-Systems"
     },
     {
       title: "Learning Git and Github",
@@ -42,6 +30,19 @@ export const Projects = () => {
       description: "AI, OOP, Data Structure and Algorithm, C#, etc.",
       imgUrl: subject_at_university,
       link: "https://github.com/qnhat2004/Subject_at_University"
+    },
+    {
+      title: "Web Platform",
+      description: "Design & Development",
+      imgUrl: webPlatform,
+      link: "https://github.com/WebPlatform-SunshineTeam/2024_CSE391_NentangWeb"
+    },
+    
+    {
+      title: "Winform + SQL Database",
+      description: "Design & Development",
+      imgUrl: hoso,
+      link: "https://github.com/qnhat2004/Analysis-and-Design-of-Information-Systems"
     },
     {
       title: "Business Startup",
