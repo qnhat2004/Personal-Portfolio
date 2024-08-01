@@ -58,9 +58,10 @@ img {
   height: auto;
 }
 
-button {
+button, a {
   border: 0;
   background-color: transparent;
+  cursor: pointer;
 }
 
 input:focus, textarea:focus, select:focus {
