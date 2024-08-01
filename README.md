@@ -53,5 +53,6 @@ $ git rebase main // bring gh-pages up to date with main
 $ git push origin gh-pages // commit the changes
 $ git checkout main // return to the main branch
 
+hoặc npm run deploy --dev-save
 hoặc npm run deploy
 --->
