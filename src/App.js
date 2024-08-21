@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer";
 // Forked from https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio
 // Retouched by qnhat2004: github.com/qnhat2004
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <NavBar />

@@ -17,7 +17,7 @@ export const Projects = () => {
       title: "Learning Docker",
       description: "Build, test, and deploy Docker applications",
       imgUrl: dockerImg,
-      link: "https://github.com/qnhat2004/Learn-Docker"
+      link: "https://gist.github.com/qnhat2004/42453f3fde6cda94c76215bf107d8eb9"
     },
     {
       title: "Learning Git and Github",
